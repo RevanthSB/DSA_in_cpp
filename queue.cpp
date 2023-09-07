@@ -49,18 +49,18 @@ public:
 		}
 	}
 	int dequeue() {
+			int x;
 		if (!isempty()) {
-			if (front == 0 && rear == 0) {
+			if (front == rear) {
+				x = arr[front];
 				front = -1;
 				rear = -1;
-				return arr[front + 1];
+				return x;
 			}
 			else {
+				x = arr[front];
 				front++;
-				if (front > rear) {
-					front = rear = -1;
-				}
-				return arr[front - 1];
+				return x;
 			}
 		}
 		else {
