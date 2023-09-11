@@ -274,6 +274,5 @@ int main() {
 			break;
 		}
 	} while (count != 0);
-
 	return 0;
 }
