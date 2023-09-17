@@ -5,7 +5,6 @@ public:
 	int data;
 	int key;
 	Node* next;
-
 	Node() {
 		data = 0;
 		key = 0;
@@ -20,7 +19,6 @@ public:
 		key = k;
 	}
 };
-
 class circularlist {
 public:
 	Node* head;
@@ -292,7 +290,5 @@ int main() {
 			break;
 		}
 	} while (count != 0);
-
-
 	return 0;
 }
