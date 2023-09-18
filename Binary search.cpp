@@ -2,8 +2,6 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
-
-
 int binarysearch(vector<int> a, int s, int val) {
 	int ans = -1;
 	int left = 0;
@@ -24,8 +22,6 @@ int binarysearch(vector<int> a, int s, int val) {
 	} while (left <= right);
 	return ans;
 }
-
-
 int main() {
 	vector<int> arr;
 	int size;
@@ -48,5 +44,4 @@ int main() {
 	else {
 		cout << "searched element is not present in the array" << endl;
 	}
-
 }
