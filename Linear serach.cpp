@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
 int linearsearch(vector<int> a, int s,int val) {
 	int temp = -1;
 	for (int i = 0; i < s; i++) {
@@ -11,8 +10,6 @@ int linearsearch(vector<int> a, int s,int val) {
 	}
 	return temp;
 }
-
-
 int main() {
 	vector<int> arr;
 	int size;
@@ -34,5 +31,4 @@ int main() {
 	else {
 		cout << "searched element is not present in the array" << endl;
 	}
-
 }
