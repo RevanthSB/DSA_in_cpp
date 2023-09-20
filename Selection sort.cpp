@@ -2,7 +2,6 @@
 #include<vector>
 using namespace std;
 void selectionsort(int *arr, int size) {
-	vector<int> val;
 	for (int i = 0; i < size - 1; i++) {
 		int min = i;
 		for (int j = i + 1; j < size; j++) {
