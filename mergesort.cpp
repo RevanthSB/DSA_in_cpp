@@ -1,16 +1,6 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
-
-
 void merge(int arr[],int l,int m,int r){
     int temp[r];
     int i=l;
@@ -42,7 +32,6 @@ void merge(int arr[],int l,int m,int r){
         arr[i] = temp[i];
     }
 }
-
 void mergesort(int arr[], int l, int r) {
 	if (l < r) {
         int m = (l+r)/2;
@@ -51,9 +40,6 @@ void mergesort(int arr[], int l, int r) {
         merge(arr,l,m,r);
 	}
 }
-
-
-
 int main() {
     int n;
     cout<<"enter the number of elements "<<endl;
@@ -69,36 +55,3 @@ int main() {
         cout<<arr[i]<<" ";
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
